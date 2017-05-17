@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    overflow:hidden;
+    background-image: url("../graphics/Background.png");
+    background-repeat: no-repeat;
+    }
+
+/* Smash Scene */
+.smash_scene{
+}
+.smash_header{
+    background-image: url("../graphics/header.png");
+
+    width:100%;
+    height:146px;
+/*
+    background: #0B2802;
+    border-width:10px;
+    border-color:red;
+*/
+}
+
+/* Starting Soon, Thanks For Watching*/
+.starting_soon_text, .thanks_watching_text{
+    line-height: 1080px;
+    color: white;
+    text-align:center;
+    vertical-align:middle;
+    font-size:75pt;
+}
